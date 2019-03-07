@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mt_coff",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "format": "elm-format src/*.elm --yes"
+  },
+  "dependencies": {
+    "node-elm-compiler": "^5.0.3",
+    "parcel-bundler": "^1.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "elm-format": "^0.8.1",
+    "elm-hot": "^1.0.1",
+    "postcss-modules": "^1.4.1",
+    "tailwindcss": "^0.7.4"
+  }
+}
